@@ -43,9 +43,9 @@ namespace SistemaCobroFacturacion.Vista
             this.acercaDeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.StatusUsuario = new System.Windows.Forms.ToolStripStatusLabel();
+            this.usuariosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -81,7 +81,7 @@ namespace SistemaCobroFacturacion.Vista
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Text = "Cerrar";
             // 
             // reingresarToolStripMenuItem
             // 
@@ -120,6 +120,8 @@ namespace SistemaCobroFacturacion.Vista
             // 
             // acercaDeToolStripMenuItem
             // 
+            this.acercaDeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.usuariosToolStripMenuItem1});
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
             this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(117, 20);
             this.acercaDeToolStripMenuItem.Text = "Gestionar Usuarios";
@@ -135,8 +137,8 @@ namespace SistemaCobroFacturacion.Vista
             // reportesToolStripMenuItem1
             // 
             this.reportesToolStripMenuItem1.Name = "reportesToolStripMenuItem1";
-            this.reportesToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
-            this.reportesToolStripMenuItem1.Text = "Reportes";
+            this.reportesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.reportesToolStripMenuItem1.Text = "Reportes varios";
             // 
             // acercaDeToolStripMenuItem1
             // 
@@ -149,22 +151,14 @@ namespace SistemaCobroFacturacion.Vista
             // acercaDeToolStripMenuItem2
             // 
             this.acercaDeToolStripMenuItem2.Name = "acercaDeToolStripMenuItem2";
-            this.acercaDeToolStripMenuItem2.Size = new System.Drawing.Size(127, 22);
+            this.acercaDeToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.acercaDeToolStripMenuItem2.Text = "Acerca De";
             // 
             // salirToolStripMenuItem1
             // 
-            this.salirToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salirToolStripMenuItem2});
             this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
             this.salirToolStripMenuItem1.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem1.Text = "Salir";
-            // 
-            // salirToolStripMenuItem2
-            // 
-            this.salirToolStripMenuItem2.Name = "salirToolStripMenuItem2";
-            this.salirToolStripMenuItem2.Size = new System.Drawing.Size(96, 22);
-            this.salirToolStripMenuItem2.Text = "Salir";
             // 
             // statusStrip1
             // 
@@ -183,6 +177,12 @@ namespace SistemaCobroFacturacion.Vista
             this.StatusUsuario.Name = "StatusUsuario";
             this.StatusUsuario.Size = new System.Drawing.Size(70, 17);
             this.StatusUsuario.Text = "Bienvenid@";
+            // 
+            // usuariosToolStripMenuItem1
+            // 
+            this.usuariosToolStripMenuItem1.Name = "usuariosToolStripMenuItem1";
+            this.usuariosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.usuariosToolStripMenuItem1.Text = "Usuarios";
             // 
             // Principal
             // 
@@ -223,6 +223,6 @@ namespace SistemaCobroFacturacion.Vista
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem1;
     }
 }
